@@ -1,0 +1,12 @@
+{
+  "name": "right",
+  "version": "0.0.1",
+  "description": "Text Editor",
+  "main": "index.js",
+  "repository": "git@github.com:flagpoonage/right.git",
+  "author": "James Hay <pokinoice@live.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  }
+}

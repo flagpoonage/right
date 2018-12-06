@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Right Example</title>
+  </head>
+  <body>
+    <div id="renderer" style="width: 200px; height: 200px; border: solid 1px black;">
+
+    </div> 
+    <script src="http://localhost:8080/main.js"></script>
+    <script>
+      let el = document.getElementById('renderer');
+      window._editor = new window.RightEditor();
+      window._editor.addRenderer(el);
+    </script>
+  </body>
+</html>
